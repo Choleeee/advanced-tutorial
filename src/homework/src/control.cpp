@@ -120,17 +120,13 @@ private:
     }
     double quaternion_to_z_axis_angle(double q[4])
     {
-        double X = (2 * (q[0] * q[3] + q[1] * q[2]));
-        double Y = (1 - 2 * (q[2] * q[2] + q[3] * q[3]));
-        return atan2(-Y, X);
+       
+       //todo
     }
 
     double latlong_to_z_axis_angle(double lat1, double lon1, double lat2, double lon2)
     {
-        double diff = lon2 - lon1;
-        double X = cos(lat2) * sin(diff);
-        double Y = cos(lat1) * sin(lat2) - sin(lat1) * cos(lat2) * cos(diff);
-        return -atan2(X, Y);
+        //todo
     }
     rclcpp::TimerBase::SharedPtr timer_;
     rclcpp::Publisher<std_msgs::msg::Float64>::SharedPtr left_thrust;
