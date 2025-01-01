@@ -69,7 +69,7 @@ private:
         lat_tube = p * msg->pose.position.x;
         lon_tube = p * msg->pose.position.y;
         // RCLCPP_INFO(this->get_logger(), "Stage: %d", circle);
-        RCLCPP_INFO(this->get_logger(), "relative_angle: %f, distance: %f, circle: %d, thing: %d", relative_angle, dist, circle, thing);
+        RCLCPP_INFO(this->get_logger(), "relative_angle: %f, distance: %f, stage: %f", relative_angle, dist, stage);
     }
     void imu_callback(const sensor_msgs::msg::Imu::SharedPtr msg){
         quaternion_vector[0] = msg->orientation.w;

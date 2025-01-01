@@ -37,8 +37,8 @@ Then `cd ~/my_wamv`
 ros2 launch vrx_gz competition.launch.py world:=stationkeeping_task urdf:=`pwd`/wamv_target.urdf
 
 ---
-## Running the package (Aka controlling the boat in the simulator
-Then, go to the command terminal and open another window, cd the workspace with your package (remember to source the workspace with /opt/ros/<distro>/setup.bash and source install/local_setup.bash)
+## Running the package (Aka controlling the boat in the simulator)
+Then, go to the command terminal and open another window, cd the workspace with your package (remember to source the workspace with /opt/ros/distro/setup.bash and source install/local_setup.bash)
 
 Then run your package 
 `ros2 run <package name> <executable>`
