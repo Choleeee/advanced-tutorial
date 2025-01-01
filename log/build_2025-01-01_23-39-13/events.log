@@ -1,0 +1,188 @@
+[0.000000] (-) TimerEvent: {}
+[0.000229] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000422] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.006866] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.007047] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/chloee/advanced-tutorial/src/homework', '-DCMAKE_INSTALL_PREFIX=/home/chloee/advanced-tutorial/install/my_cpp_pkg'], 'cwd': '/home/chloee/advanced-tutorial/build/my_cpp_pkg', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/chloee/ardupilot_gazebo/build:/home/chloee/ardupilot_gazebo/build:/home/chloee/ardupilot_gazebo/build:/home/chloee/gazebo1/ardupilot_gazebo/build:/home/chloee/ardupilot_gazebo/build:'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/chloee/ardupilot_gazebo/models:/home/chloee/ardupilot_gazebo/worlds:/home/chloee/ardupilot_gazebo/models:/home/chloee/ardupilot_gazebo/worlds:/home/chloee/ardupilot_gazebo/models:/home/chloee/ardupilot_gazebo/worlds:/home/chloee/gazebo1/ardupilot_gazebo/models:/home/chloee/gazebo1/ardupilot_gazebo/worlds:/home/chloee/ardupilot_gazebo/models:/home/chloee/ardupilot_gazebo/worlds:'), ('LANGUAGE', 'en_US:en'), ('USER', 'chloee'), ('LC_TIME', 'en_HK.UTF-8'), ('GIO_MODULE_DIR', '/home/chloee/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/173/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chloee'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/chloee/advanced-tutorial/src'), ('TERM_PROGRAM_VERSION', '1.95.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/173/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/chloee/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/github-desktop.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/173/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_HK.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/173/usr/share/code/code'), ('MANAGERPID', '1846'), ('SYSTEMD_EXEC_PID', '2019'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '16784'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/chloee/advanced-tutorial/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chloee'), ('JOURNAL_STREAM', '8:18833'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'chloee'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/lib/ccache:/home/chloee/gazebo1/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/chloee/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/chloee/.local/bin'), ('SESSION_MANAGER', 'local/chloee-Yoga-9-14ITL5:@/tmp/.ICE-unix/1990,unix/chloee-Yoga-9-14ITL5:/tmp/.ICE-unix/1990'), ('GTK_EXE_PREFIX', '/snap/code/173/usr'), ('INVOCATION_ID', '92b86706a1cf41fa96f440417b497edc'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_HK.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/173/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_HK.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/chloee/snap/code/173/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O75OZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-542f7b6e8c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/chloee/snap/code/173/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/chloee/advanced-tutorial/install/homework:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'Unity'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_HK.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_HK.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_HK.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chloee/advanced-tutorial/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/chloee/snap/code/173/.local/share:/home/chloee/snap/code/173:/snap/code/173/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_HK.UTF-8'), ('LC_PAPER', 'en_HK.UTF-8'), ('COLCON', '1'), ('LOCAL_GIT_DIRECTORY', '/usr/lib/github-desktop/resources/app/git'), ('CMAKE_PREFIX_PATH', '/home/chloee/advanced-tutorial/install/homework:/opt/ros/humble')]), 'shell': False}
+[0.098454] (my_cpp_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099683] (-) TimerEvent: {}
+[0.168223] (my_cpp_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.180308] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199781] (-) TimerEvent: {}
+[0.228646] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.234976] (my_cpp_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc - skipped\n'}
+[0.235324] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.235804] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.238701] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.286772] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.291716] (my_cpp_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped\n'}
+[0.291895] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.292184] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.299845] (-) TimerEvent: {}
+[0.300099] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399947] (-) TimerEvent: {}
+[0.402666] (my_cpp_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.467551] (my_cpp_pkg) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.497314] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.500025] (-) TimerEvent: {}
+[0.501179] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.507606] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.518505] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.531348] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.560496] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.589538] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.591597] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600119] (-) TimerEvent: {}
+[0.654424] (my_cpp_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.675050] (my_cpp_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.700259] (-) TimerEvent: {}
+[0.704617] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.712362] (my_cpp_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.772125] (my_cpp_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.772275] (my_cpp_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.800371] (-) TimerEvent: {}
+[0.834672] (my_cpp_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.835784] (my_cpp_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.869818] (my_cpp_pkg) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.882988] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ros_gz_interfaces: 0.244.11 (/opt/ros/humble/share/ros_gz_interfaces/cmake)\n'}
+[0.897403] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.900460] (-) TimerEvent: {}
+[0.955185] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.955320] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.955360] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.956152] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.957053] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.957153] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.957463] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.958611] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.964495] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[0.965505] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/chloee/advanced-tutorial/build/my_cpp_pkg\n'}
+[0.971698] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[0.972292] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.972896] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chloee/advanced-tutorial/build/my_cpp_pkg', '--', '-j8', '-l8'], 'cwd': '/home/chloee/advanced-tutorial/build/my_cpp_pkg', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/chloee/ardupilot_gazebo/build:/home/chloee/ardupilot_gazebo/build:/home/chloee/ardupilot_gazebo/build:/home/chloee/gazebo1/ardupilot_gazebo/build:/home/chloee/ardupilot_gazebo/build:'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/chloee/ardupilot_gazebo/models:/home/chloee/ardupilot_gazebo/worlds:/home/chloee/ardupilot_gazebo/models:/home/chloee/ardupilot_gazebo/worlds:/home/chloee/ardupilot_gazebo/models:/home/chloee/ardupilot_gazebo/worlds:/home/chloee/gazebo1/ardupilot_gazebo/models:/home/chloee/gazebo1/ardupilot_gazebo/worlds:/home/chloee/ardupilot_gazebo/models:/home/chloee/ardupilot_gazebo/worlds:'), ('LANGUAGE', 'en_US:en'), ('USER', 'chloee'), ('LC_TIME', 'en_HK.UTF-8'), ('GIO_MODULE_DIR', '/home/chloee/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/173/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chloee'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/chloee/advanced-tutorial/src'), ('TERM_PROGRAM_VERSION', '1.95.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/173/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/chloee/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/github-desktop.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/173/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_HK.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/173/usr/share/code/code'), ('MANAGERPID', '1846'), ('SYSTEMD_EXEC_PID', '2019'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '16784'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/chloee/advanced-tutorial/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chloee'), ('JOURNAL_STREAM', '8:18833'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'chloee'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/lib/ccache:/home/chloee/gazebo1/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/chloee/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/chloee/.local/bin'), ('SESSION_MANAGER', 'local/chloee-Yoga-9-14ITL5:@/tmp/.ICE-unix/1990,unix/chloee-Yoga-9-14ITL5:/tmp/.ICE-unix/1990'), ('GTK_EXE_PREFIX', '/snap/code/173/usr'), ('INVOCATION_ID', '92b86706a1cf41fa96f440417b497edc'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_HK.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/173/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_HK.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/chloee/snap/code/173/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O75OZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-542f7b6e8c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/chloee/snap/code/173/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/chloee/advanced-tutorial/install/homework:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'Unity'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_HK.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_HK.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_HK.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chloee/advanced-tutorial/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/chloee/snap/code/173/.local/share:/home/chloee/snap/code/173:/snap/code/173/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_HK.UTF-8'), ('LC_PAPER', 'en_HK.UTF-8'), ('COLCON', '1'), ('LOCAL_GIT_DIRECTORY', '/usr/lib/github-desktop/resources/app/git'), ('CMAKE_PREFIX_PATH', '/home/chloee/advanced-tutorial/install/homework:/opt/ros/humble')]), 'shell': False}
+[1.000590] (-) TimerEvent: {}
+[1.005618] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/control.dir/src/control.cpp.o\x1b[0m\n'}
+[1.100793] (-) TimerEvent: {}
+[1.201045] (-) TimerEvent: {}
+[1.301285] (-) TimerEvent: {}
+[1.401633] (-) TimerEvent: {}
+[1.502016] (-) TimerEvent: {}
+[1.602324] (-) TimerEvent: {}
+[1.702687] (-) TimerEvent: {}
+[1.802963] (-) TimerEvent: {}
+[1.903270] (-) TimerEvent: {}
+[2.003571] (-) TimerEvent: {}
+[2.103950] (-) TimerEvent: {}
+[2.204259] (-) TimerEvent: {}
+[2.304551] (-) TimerEvent: {}
+[2.404836] (-) TimerEvent: {}
+[2.505093] (-) TimerEvent: {}
+[2.605364] (-) TimerEvent: {}
+[2.705626] (-) TimerEvent: {}
+[2.805879] (-) TimerEvent: {}
+[2.906153] (-) TimerEvent: {}
+[3.006437] (-) TimerEvent: {}
+[3.106703] (-) TimerEvent: {}
+[3.206998] (-) TimerEvent: {}
+[3.307247] (-) TimerEvent: {}
+[3.407515] (-) TimerEvent: {}
+[3.507773] (-) TimerEvent: {}
+[3.608046] (-) TimerEvent: {}
+[3.708304] (-) TimerEvent: {}
+[3.808564] (-) TimerEvent: {}
+[3.908832] (-) TimerEvent: {}
+[4.009134] (-) TimerEvent: {}
+[4.109427] (-) TimerEvent: {}
+[4.209705] (-) TimerEvent: {}
+[4.309938] (-) TimerEvent: {}
+[4.410221] (-) TimerEvent: {}
+[4.510510] (-) TimerEvent: {}
+[4.610834] (-) TimerEvent: {}
+[4.711123] (-) TimerEvent: {}
+[4.811412] (-) TimerEvent: {}
+[4.911748] (-) TimerEvent: {}
+[5.011977] (-) TimerEvent: {}
+[5.112241] (-) TimerEvent: {}
+[5.212516] (-) TimerEvent: {}
+[5.312765] (-) TimerEvent: {}
+[5.413037] (-) TimerEvent: {}
+[5.513306] (-) TimerEvent: {}
+[5.613563] (-) TimerEvent: {}
+[5.713824] (-) TimerEvent: {}
+[5.814065] (-) TimerEvent: {}
+[5.914428] (-) TimerEvent: {}
+[6.014785] (-) TimerEvent: {}
+[6.115063] (-) TimerEvent: {}
+[6.215337] (-) TimerEvent: {}
+[6.315597] (-) TimerEvent: {}
+[6.415911] (-) TimerEvent: {}
+[6.516195] (-) TimerEvent: {}
+[6.616462] (-) TimerEvent: {}
+[6.716829] (-) TimerEvent: {}
+[6.817129] (-) TimerEvent: {}
+[6.917409] (-) TimerEvent: {}
+[7.017799] (-) TimerEvent: {}
+[7.118054] (-) TimerEvent: {}
+[7.218405] (-) TimerEvent: {}
+[7.318723] (-) TimerEvent: {}
+[7.418952] (-) TimerEvent: {}
+[7.519232] (-) TimerEvent: {}
+[7.619535] (-) TimerEvent: {}
+[7.719823] (-) TimerEvent: {}
+[7.820123] (-) TimerEvent: {}
+[7.920375] (-) TimerEvent: {}
+[8.020634] (-) TimerEvent: {}
+[8.120873] (-) TimerEvent: {}
+[8.221145] (-) TimerEvent: {}
+[8.321440] (-) TimerEvent: {}
+[8.421806] (-) TimerEvent: {}
+[8.522071] (-) TimerEvent: {}
+[8.622357] (-) TimerEvent: {}
+[8.722611] (-) TimerEvent: {}
+[8.822838] (-) TimerEvent: {}
+[8.923075] (-) TimerEvent: {}
+[9.023330] (-) TimerEvent: {}
+[9.123596] (-) TimerEvent: {}
+[9.223878] (-) TimerEvent: {}
+[9.324228] (-) TimerEvent: {}
+[9.424528] (-) TimerEvent: {}
+[9.524765] (-) TimerEvent: {}
+[9.625024] (-) TimerEvent: {}
+[9.725362] (-) TimerEvent: {}
+[9.825724] (-) TimerEvent: {}
+[9.926027] (-) TimerEvent: {}
+[10.026292] (-) TimerEvent: {}
+[10.126570] (-) TimerEvent: {}
+[10.226841] (-) TimerEvent: {}
+[10.327165] (-) TimerEvent: {}
+[10.386790] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable control\x1b[0m\n'}
+[10.427279] (-) TimerEvent: {}
+[10.527581] (-) TimerEvent: {}
+[10.627878] (-) TimerEvent: {}
+[10.728254] (-) TimerEvent: {}
+[10.828569] (-) TimerEvent: {}
+[10.928840] (-) TimerEvent: {}
+[10.935473] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target control\n'}
+[10.947399] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[10.962883] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[10.968510] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/chloee/advanced-tutorial/build/my_cpp_pkg'], 'cwd': '/home/chloee/advanced-tutorial/build/my_cpp_pkg', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/chloee/ardupilot_gazebo/build:/home/chloee/ardupilot_gazebo/build:/home/chloee/ardupilot_gazebo/build:/home/chloee/gazebo1/ardupilot_gazebo/build:/home/chloee/ardupilot_gazebo/build:'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/chloee/ardupilot_gazebo/models:/home/chloee/ardupilot_gazebo/worlds:/home/chloee/ardupilot_gazebo/models:/home/chloee/ardupilot_gazebo/worlds:/home/chloee/ardupilot_gazebo/models:/home/chloee/ardupilot_gazebo/worlds:/home/chloee/gazebo1/ardupilot_gazebo/models:/home/chloee/gazebo1/ardupilot_gazebo/worlds:/home/chloee/ardupilot_gazebo/models:/home/chloee/ardupilot_gazebo/worlds:'), ('LANGUAGE', 'en_US:en'), ('USER', 'chloee'), ('LC_TIME', 'en_HK.UTF-8'), ('GIO_MODULE_DIR', '/home/chloee/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/173/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chloee'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/chloee/advanced-tutorial/src'), ('TERM_PROGRAM_VERSION', '1.95.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/173/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/chloee/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/github-desktop.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/173/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_HK.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/173/usr/share/code/code'), ('MANAGERPID', '1846'), ('SYSTEMD_EXEC_PID', '2019'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '16784'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/chloee/advanced-tutorial/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chloee'), ('JOURNAL_STREAM', '8:18833'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'chloee'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/lib/ccache:/home/chloee/gazebo1/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/chloee/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/chloee/.local/bin'), ('SESSION_MANAGER', 'local/chloee-Yoga-9-14ITL5:@/tmp/.ICE-unix/1990,unix/chloee-Yoga-9-14ITL5:/tmp/.ICE-unix/1990'), ('GTK_EXE_PREFIX', '/snap/code/173/usr'), ('INVOCATION_ID', '92b86706a1cf41fa96f440417b497edc'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_HK.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/173/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_HK.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/chloee/snap/code/173/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.O75OZ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-542f7b6e8c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/chloee/snap/code/173/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/chloee/advanced-tutorial/install/homework:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'Unity'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_HK.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_HK.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_HK.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chloee/advanced-tutorial/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/chloee/snap/code/173/.local/share:/home/chloee/snap/code/173:/snap/code/173/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_HK.UTF-8'), ('LC_PAPER', 'en_HK.UTF-8'), ('COLCON', '1'), ('LOCAL_GIT_DIRECTORY', '/usr/lib/github-desktop/resources/app/git'), ('CMAKE_PREFIX_PATH', '/home/chloee/advanced-tutorial/install/homework:/opt/ros/humble')]), 'shell': False}
+[10.973391] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.973543] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/chloee/advanced-tutorial/install/my_cpp_pkg/lib/my_cpp_pkg/control\n'}
+[10.977019] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/chloee/advanced-tutorial/install/my_cpp_pkg/lib/my_cpp_pkg/control" to ""\n'}
+[10.977133] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/chloee/advanced-tutorial/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[10.977212] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/chloee/advanced-tutorial/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[10.977284] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/chloee/advanced-tutorial/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[10.977354] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/chloee/advanced-tutorial/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[10.977421] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/chloee/advanced-tutorial/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[10.977487] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/chloee/advanced-tutorial/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[10.977558] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/chloee/advanced-tutorial/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[10.977631] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/chloee/advanced-tutorial/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[10.977781] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/chloee/advanced-tutorial/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[10.977924] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/chloee/advanced-tutorial/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[10.977997] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/chloee/advanced-tutorial/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[10.978083] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/chloee/advanced-tutorial/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[10.978156] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/chloee/advanced-tutorial/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[10.978226] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/chloee/advanced-tutorial/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[10.978298] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/chloee/advanced-tutorial/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[10.979452] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[11.010137] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[11.010572] (-) EventReactorShutdown: {}
