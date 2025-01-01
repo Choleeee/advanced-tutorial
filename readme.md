@@ -15,10 +15,14 @@ Steps:
 1. Create a package under your workspace/src
 2. Copy the following skeleton code into the respective files (remember to change the package name/executable names accordingly)
 
+Submission:
+Create a repository containing your package
+
 --- 
-To run the simulator:
+## To run the simulator:
 ros2 launch vrx_gz competition.launch.py world:=stationkeeping_task
---- 
+
+## Customizing own wamv
 For better control, you may consider creating your own boat (customize its thruster positions)
 Follow these steps: https://github.com/osrf/vrx/wiki/customizing_wamv_beginner_tutorial
 
@@ -34,14 +38,14 @@ Then `cd ~/my_wamv`
 ros2 launch vrx_gz competition.launch.py world:=stationkeeping_task urdf:=`pwd`/wamv_target.urdf
 
 ---
-
+## Running the package (Aka controlling the boat in the simulator
 Then, go to the command terminal and open another window, cd the workspace with your package (remember to source the workspace with /opt/ros/<distro>/setup.bash and source install/local_setup.bash)
 
 Then run your package 
 `ros2 run <package name> <executable>`
 
 --- 
-Topics when the simulator is running:
+## Topics when the simulator is running:
 
 (Hint: Run `ros2 topic list` when running the simulator)
 (Hint2: Be careful with the GPS and IMU  + find the relevant equations online ( e.g distance between to GPS coordinates and z axis angle ))
@@ -51,10 +55,10 @@ Topics when the simulator is running:
 | /vrx/stationkeeping/goal        | geometry_msgs::msg::PoseStamped  | Position of the point in spherica; (WGS84) coordinates and a heading, given as a quaternion |
 | /wamv/sensors/gps/gps/fix |  sensor_msgs::msg::Imu  | IMU data of the boat |
 | /wamv/sensors/gps/gps/fix |  sensor_msgs::msg::NavSatFix  | GPS position data |
-|   /wamv/thrusters/<thrustername>/pos  |  std_msgs::msg::Float64   | Next angle command for the
-<thrustername> thruster |
-|  /wamv/thrusters/<thrustername>/thrust |  std_msgs::msg::Float64   | Next power command for the
-<thrustername> thruster|
+|   /wamv/thrusters/thrustername/pos  |  std_msgs::msg::Float64   | Next angle command for the
+thrustername thruster |
+|  /wamv/thrusters/thrustername/thrust |  std_msgs::msg::Float64   | Next power command for the
+thrustername thruster|
 
 
 
