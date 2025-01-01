@@ -11,6 +11,7 @@ How to control the boat
 - By publishing data (thrust and angle) to the related topics 
 
 Steps: 
+(The homework folder contains the package "homework", it is not the workspace)
 1. Create a package under your workspace/src
 2. Copy the following skeleton code into the respective files (remember to change the package name/executable names accordingly)
 
