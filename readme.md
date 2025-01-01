@@ -1,9 +1,8 @@
 ## Install VRX workspace
 
 Follow this website (remember to also install gazebo garden)
-```
+
 https://github.com/osrf/vrx/wiki/tutorials 
-```
 
 
 ## Task: Circle a point (the white object) and maintain the distance between the ASV (Boat) and the point within 5~6 m.
