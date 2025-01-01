@@ -1,7 +1,7 @@
 ## Install VRX workspace
 
-```
 Follow this website (remember to also install gazebo garden)
+```
 https://github.com/osrf/vrx/wiki/tutorials 
 ```
 
@@ -55,8 +55,8 @@ Then run your package
 | /vrx/stationkeeping/goal        | geometry_msgs::msg::PoseStamped  | Position of the point in spherica; (WGS84) coordinates and a heading, given as a quaternion |
 | /wamv/sensors/gps/gps/fix |  sensor_msgs::msg::Imu  | IMU data of the boat |
 | /wamv/sensors/gps/gps/fix |  sensor_msgs::msg::NavSatFix  | GPS position data |
-|   /wamv/thrusters/<thrustername>/pos  |  std_msgs::msg::Float64   | Next angle command for the <thrustername> thruster |
-|  /wamv/thrusters/<thrustername>/thrust |  std_msgs::msg::Float64   | Next power command for the <thrustername> thruster|
+|   /wamv/thrusters/thrustername/pos  |  std_msgs::msg::Float64   | Next angle command for the thrustername thruster |
+|  /wamv/thrusters/thrustername/thrust |  std_msgs::msg::Float64   | Next power command for the thrustername thruster|
 
 
 
